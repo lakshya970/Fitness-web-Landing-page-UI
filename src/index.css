@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.moves {
+  animation: moves 8s linear infinite alternate-reverse;
+}
+
+@keyframes moves {
+  0% {
+    transform: translateY(-1rem);
+  }
+  50% {
+    transform: translateY(-6rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
